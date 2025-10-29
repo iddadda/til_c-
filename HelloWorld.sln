@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "001_tutorial\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_tutorial", "001_tutorial", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "002_method", "002_method", "{499665BE-66CE-4BA0-A513-190CA219F91A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheElseStatement", "TheElseStatement\TheElseStatement.csproj", "{11013BCA-2FB5-4A83-A8E5-7749EA918338}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +19,17 @@ Global
 		{111FD104-D019-4C1F-9FEB-C32CEF875D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{111FD104-D019-4C1F-9FEB-C32CEF875D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{111FD104-D019-4C1F-9FEB-C32CEF875D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11013BCA-2FB5-4A83-A8E5-7749EA918338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11013BCA-2FB5-4A83-A8E5-7749EA918338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11013BCA-2FB5-4A83-A8E5-7749EA918338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11013BCA-2FB5-4A83-A8E5-7749EA918338}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{111FD104-D019-4C1F-9FEB-C32CEF875D6F} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
+		{11013BCA-2FB5-4A83-A8E5-7749EA918338} = {C8D5274F-AC00-46C7-1F8D-E88E81087A52}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5514D0B0-75B1-4C99-9162-5FC8B66A87FB}

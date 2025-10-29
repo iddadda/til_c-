@@ -62,7 +62,54 @@ namespace HelloWorld
 
             int minutesPerHour = 60;
             int m = 60;
+
+            Console.WriteLine("Enter username:");
+            string userName = Console.ReadLine();
+            Console.WriteLine("Username is: " + userName);
+            
+            Console.WriteLine(Math.Max(5, 10));
+            Console.WriteLine(Math.Min(5, 10));
+            Console.WriteLine(Math.Sqrt(64));
+            Console.WriteLine(Math.Abs(-4.7));
+            Console.WriteLine(Math.Round(4.6));
+
+            // 문자열 길이 `Length` 속성
+            string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            Console.WriteLine("The length of the txt string is: " + txt.Length);
+
+            // 문자열 대문자 `ToUpper()` 메서드
+            string txt2 = "Hello World!";
+            Console.WriteLine(txt2.ToUpper());
+
+            // 문자열 소문자 `ToLower()` 메서드
+            string txt3 = "Hello World!";
+            Console.WriteLine(txt3.ToLower());
+
+            /*
+             * 문자열 연결 방법
+             * 1. 더하기 연산자 (+)
+             * 2. `Concat()` 메서드
+             * 3. 문자열 보간 (string interpolation) - C# 6.0 이상
+             */
+
+            string name3 = firstName + lastName;
+            string name4 = String.Concat(firstName, lastName);
+            string name5 = $"My full name is {firstName} {lastName}.";
+            Console.WriteLine(name3);
+            Console.WriteLine(name4);
+            Console.WriteLine(name5);
+            Console.WriteLine(firstName[0]); // 첫번째 문자 출력
+            Console.WriteLine(firstName[1]);
+
+            // 문자열 인덱스번호 찾기 `IndexOf()` 메서드
+            Console.WriteLine(firstName.IndexOf("n")); // 0))
+
+            // 특수문자 이스케이프 시퀀스
+            //string txt4 = "We are the so-called "Vikings" from the north."; // 오류 발생
+            string txt4 = "We are the so-called \"Vikings\" from the north.";
+            Console.WriteLine(txt4);
         }
+
     }
 
    
